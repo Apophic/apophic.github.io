@@ -1,6 +1,6 @@
-# Windows Keyboard Shortcuts Repository
+# Windows User Guide
 
-Welcome to the Windows Keyboard Shortcuts Repository! This repository aims to provide a comprehensive list of keyboard shortcuts for Windows users. Whether you're a beginner or an advanced user, these shortcuts can help you navigate and operate your PC more efficiently.
+Welcome to the Windows User Guide! This guide provides a comprehensive list of keyboard shortcuts and useful information for Windows users. Whether you're a beginner or an advanced user, these resources can help you navigate and operate your PC more efficiently.
 
 ## Table of Contents
 
@@ -9,6 +9,7 @@ Welcome to the Windows Keyboard Shortcuts Repository! This repository aims to pr
 - [File Explorer Shortcuts](#file-explorer-shortcuts)
 - [Taskbar Shortcuts](#taskbar-shortcuts)
 - [System Shortcuts](#system-shortcuts)
+- [Useful Applications](#useful-applications)
 
 ## Windows Key Shortcuts
 
@@ -56,4 +57,27 @@ Welcome to the Windows Keyboard Shortcuts Repository! This repository aims to pr
 - **Win + Pause/Break:** Open System Properties
 - **Win + Ctrl + F:** Search for computers (on a network)
 
-Feel free to contribute by adding more shortcuts or improving the documentation. Happy coding!
+## Useful Applications
+
+### [Visual Studio Code](https://code.visualstudio.com/)
+
+- **Ctrl + `:** Open integrated terminal
+- **Ctrl + B:** Toggle sidebar visibility
+- **Ctrl + P:** Quick open file
+- **Ctrl + Shift + N:** New window
+
+### [Google Chrome](https://www.google.com/chrome/)
+
+- **Ctrl + T:** Open a new tab
+- **Ctrl + W:** Close the current tab
+- **Ctrl + Shift + T:** Reopen the last closed tab
+- **Ctrl + D:** Add the current page to bookmarks
+
+### [Microsoft Office Suite](https://www.microsoft.com/en-us/microsoft-365/get-started-with-office-2019)
+
+- **Ctrl + N:** New document
+- **Ctrl + O:** Open a document
+- **Ctrl + S:** Save
+- **Ctrl + P:** Print
+
+Feel free to contribute by adding more shortcuts or improving the documentation. Happy computing!
