@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#browser {
+    width: 100%;
+    height: 80vh;
+    border: 1px solid #ccc;
+}
+
+#urlInput {
+    width: 80%;
+    padding: 5px;
+}
+
+#goButton {
+    padding: 5px;
+    cursor: pointer;
+}
