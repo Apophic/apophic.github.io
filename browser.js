@@ -1,13 +1,24 @@
-function navigate() {
-    var urlInput = document.getElementById('urlInput');
-    var browser = document.getElementById('browser');
-    var url = urlInput.value;
-    
-    if (url.startsWith('http://') || url.startsWith('https://')) {
-        browser.src = url;
-    } else {
-        browser.src = 'http://' + url;
-    }
+const secretNumber = Math.floor(Math.random() * 10) + 1;
+let attempts = 0;
+
+function checkGuess() {
+  const userGuess = document.getElementById('guessInput').value;
+
+  if (!userGuess || userGuess < 1 || userGuess > 10) {
+    alert('Please enter a valid number between 1 and 10.');
+    return;
+  }
+
+  attempts++;
+
+  if (userGuess == secretNumber) {
+    displayResult(`Congratulations! You guessed the number ${secretNumber} in ${attempts} attempts.`);
+  } else {
+    displayResult(`Incorrect! Try again.`);
+  }
 }
 
-document.getElementById('goButton').addEventListener('click', navigate);
+function displayResult(message) {
+  document.getElementById('result').innerHTML = message;
+  document.getElementById('guessInput').value = '';
+}
