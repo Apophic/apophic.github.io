@@ -36,9 +36,27 @@ header {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-h1, h2, h3 {
-    color: #ff6f91;
+/* Add more spacing to the main headers */
+h1 {
+    margin-bottom: 2rem;  /* Adds more space below the main header */
 }
+
+h2 {
+    margin-top: 2rem;     /* Adds space above h2 headers */
+    margin-bottom: 1.5rem; /* Adds space below h2 headers */
+}
+
+h3 {
+    margin-top: 1.5rem;    /* Adds space above h3 headers */
+    margin-bottom: 1rem;   /* Adds space below h3 headers */
+}
+
+/* Optional: Add spacing for general paragraphs or text sections */
+p, .gallery-container {
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+
 
 main {
     padding: 2rem;
